@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(250, 233, 203);
+}
+.container {
+  width: 1140px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  flex-direction: column;
+}
+.inpt-all .input-text {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+.inpt-all button {
+  width: 75px;
+  height: 36px;
+  background: cornflowerblue;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.inpt-call {
+  display: flex;
+  flex-direction: column;
+}
+.inpt-call .input-call {
+  width: 380px;
+  height: 30px;
+  border-radius: 5px;
+}
+.clearbutton {
+  padding-top: 10px;
+}
+.clearbutton button {
+  background: cornflowerblue;
+  color: #fff;
+  width: 100px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.liste {
+  margin: 0;
+  cursor: pointer;
+  font-size: 30px;
+  color: black;
+  text-transform: capitalize;
+}
+.list-add-todo {
+  padding: 20px 0px;
+}
